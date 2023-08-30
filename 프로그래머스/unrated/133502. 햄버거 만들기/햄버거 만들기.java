@@ -28,11 +28,9 @@ class Solution {
             }
             if (num >= ingredient.length) {
                 break;
-            }
-            if(num< ingredient.length)
+            }else
                 list.add(ingredient[num]);
             num++;
-            
         }
 
         return answer;
